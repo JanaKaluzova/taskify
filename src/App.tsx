@@ -20,6 +20,7 @@ const App: React.FC = () => {
     }
   }
 
+  /* dummy komentar */
   const onDragEnd = (result: DropResult) => {
     const { source, destination } = result
 
