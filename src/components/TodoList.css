@@ -1,0 +1,33 @@
+.todos{
+    display: flex;
+    width: 47.5%;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.313);
+}
+
+.container{
+display: flex;
+width: 95%;
+margin-top: 10px;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.todos__heading{
+font-size: 50px;
+color: white;
+}
+
+.remove{
+background-color: rgba(181, 24, 24, 0.694);
+}
+
+.dragactive {
+    background-color: aqua;
+}
+
+.dragcomplete{
+    background-color: red;
+}
